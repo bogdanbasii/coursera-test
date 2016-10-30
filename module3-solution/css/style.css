@@ -1,0 +1,118 @@
+
+* {
+  box-sizing: border-box; }
+  
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color:black;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: gray;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Food LLC */
+  font-family: 'Lora', serif;
+  color: white;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0px;
+  line-height: .75;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -40px;
+}
+.navbar-header button.navbar-toggle:hover {
+    clear: both;
+    margin-top: -40px;
+    background: black;
+}
+#nav-list {
+    margin-top: 10px;
+}
+#nav-list a {
+    color: white;
+    background: black;
+    text-align:center;
+}
+#nav-list a:hover {
+    color: white;
+    background: gray;
+}
+/* END HEADER */
+
+/* HOME PAGE */
+
+#menu-title {
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+}
+.box-style {
+    float: left;
+    border-radius: 2%;
+    background-color: black;
+    padding: 0 15px 15px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#chicken{
+  background-color: #ffc0cb;
+}
+#beef{
+  background-color: #e7042b;
+  color: white;
+}
+#sushi{
+  background-color: #f2dea6;
+}
+#return{
+color: white;
+}
+
+.row {
+  width: 100%;
+}
+
+#home-tiles a {
+    color: #512da8;
+    font-size: 0.8em;
+}
+
+
+
+
+
+/* END HOME PAGE */
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {}
+
+/*********** Medium devices only *********/
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {}
+ 
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {}
